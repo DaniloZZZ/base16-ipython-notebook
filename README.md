@@ -14,22 +14,7 @@ Custom style sheets for [IPython Notebook][1], using Chris Kempson's [Base16][2]
 
 ## Installation
 
-To use these styles, you'll need to place the style sheet of your choice in the static folder for your ipython
-profile. If you don't have a custom profile, run:
-
-`ipython profile create <profile-name>`
-
-To locate the directory of your profile, do:
-
-`ipython locate profile <profile-name>`
-
-Your style sheet will need to be named `custom.css` and
-placed in the `/static/custom` directory of your profile. So you might grab the `ocean-dark` theme like so:
-
-```sh
-wget -O `ipython locate profile <profile-name>`/static/custom/custom.css
-https://raw.githubusercontent.com/nsonnad/base16-ipython-notebook/master/ipython-2/output/base16-ocean-dark.css
-```
+Clone the repo and run `sudo ./install-theme.sh <theme-name>`
 
 ## Build
 
