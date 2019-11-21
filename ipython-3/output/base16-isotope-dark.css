@@ -63,7 +63,10 @@ div.output_stderr {background-color: #ff0000;}
 div.output_stderr pre {color: #e0e0e0;}
 
 .cm-s-ipython.CodeMirror {background: #000000; color: #e0e0e0;}
+/* Make ths work with vim-keybindings extension */
+.cm-s-ipython.CodeMirror {background: #000000 !important; color: #e0e0e0;}
 .cm-s-ipython div.CodeMirror-selected {background: #404040 !important;}
+
 .cm-s-ipython .CodeMirror-gutters {background: #000000; border-right: 0px;}
 .cm-s-ipython .CodeMirror-linenumber {color: #808080;}
 .cm-s-ipython .CodeMirror-cursor {border-left: 1px solid #c0c0c0 !important;}
