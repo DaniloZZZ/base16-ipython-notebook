@@ -16,8 +16,10 @@ div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.promp
 */
 
 /* GLOBALS */
-body {background-color: #000000;}
+body {background-color: #000000 !important;}
 a {color: #0066ff;}
+/* Make the container bg transparent */ 
+#notebook-container { background-color: #fff0 !important;}
 
 /* INTRO PAGE */
 .toolbar_info, .list_container {color: #e0e0e0;}
